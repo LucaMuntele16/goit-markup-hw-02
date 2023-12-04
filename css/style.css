@@ -168,3 +168,7 @@ body {
 .team {
   background-color: #f4f4fd;
 }
+
+.header-hidden {
+  background-color: #ffffffff;
+}

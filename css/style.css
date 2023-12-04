@@ -14,11 +14,11 @@ body {
   text-decoration: none;
 }
 
-.link:hover {
+.nav-links:hover {
   color: #404bbf;
 }
 
-.link:focus {
+.nav-links:focus {
   color: #404bbf;
 }
 

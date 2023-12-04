@@ -24,6 +24,7 @@ body {
 
 .list {
   list-style: none;
+  background-color: #ffffffff;
 }
 
 .logo {
@@ -44,7 +45,7 @@ body {
 }
 
 .second-logo-word-white {
-  color: #ffffff;
+  color: #f4f4fd;
 }
 
 .nav-links {
@@ -170,5 +171,8 @@ body {
 }
 
 .header-hidden {
+  background-color: #ffffffff;
+}
+.white-background {
   background-color: #ffffffff;
 }

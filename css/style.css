@@ -78,31 +78,35 @@ body {
 .adresses-font {
   font-style: normal;
 }
-#hero-image {
+.hero-image {
   background-color: #2e2f42;
 }
-#header1 {
+.header1 {
   font-size: 56px;
   font-weight: 700;
   line-height: 60px;
   letter-spacing: 0.02em;
   text-align: center;
   color: #ffffff;
+  line-height: 1.07;
 }
 
-#order-button {
-  width: 169px;
-  height: 56px;
-  top: 428px;
-  left: 636px;
-  padding: 16px, 32px, 16px, 32px;
-  border-radius: 4px;
-  gap: 10px;
+.order-button {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  text-align: left;
   background-color: #4d5ae5;
   color: #ffffff;
+  cursor: pointer;
 }
 
-#order-button:hover {
+.order-button:hover {
+  background-color: #404bbf;
+}
+
+.order-button:focus {
   background-color: #404bbf;
 }
 

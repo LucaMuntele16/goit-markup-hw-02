@@ -1,0 +1,135 @@
+:root {
+  --logo-font-family: "Raleway", sans-serif;
+  --text-font-family: "Roboto", sans-serif;
+}
+
+body {
+  font-family: var(--text-font-family);
+}
+
+.anchor {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+.logo {
+  font-family: var(--logo-font-family);
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 21px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  text-decoration: none;
+}
+.first-logo-word {
+  color: #4d5ae5;
+}
+.second-logo-word {
+  color: #2e2f42;
+}
+
+.second-logo-word-white {
+  color: #ffffff;
+}
+
+.nav-links {
+  font-family: var(--text-font-family);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #2e2f42;
+}
+
+.adresses {
+  font-family: var(--text-font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #434455;
+}
+
+#hero-image {
+  background-color: #2e2f42;
+}
+#header1 {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #ffffff;
+}
+
+#order-button {
+  width: 169px;
+  height: 56px;
+  top: 428px;
+  left: 636px;
+  padding: 16px, 32px, 16px, 32px;
+  border-radius: 4px;
+  gap: 10px;
+  background-color: #4d5ae5;
+  color: #ffffff;
+}
+
+#order-button:hover {
+  background-color: #404bbf;
+}
+
+.header-3 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+
+.paragraph {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+
+.center {
+  text-align: center;
+}
+
+.header-2 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+
+.footer {
+  background-color: #2e2f42;
+}
+
+.filter {
+  width: 116px;
+  height: 48px;
+  padding: 12px, 24px, 12px, 24px;
+  border-radius: 4px;
+  border: 1px;
+  color: #4d5ae5;
+}
+
+.filter:active {
+  background-color: #404bbf;
+  color: #ffffff;
+}
+
+.paragraph-footer {
+  color: #f4f4fd;
+}

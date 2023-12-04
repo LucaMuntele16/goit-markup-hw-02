@@ -1,14 +1,25 @@
 :root {
   --logo-font-family: "Raleway", sans-serif;
   --text-font-family: "Roboto", sans-serif;
+  --paragraph-color: #434455;
 }
 
 body {
   font-family: var(--text-font-family);
+  background-color: #ffffffff;
+  color: #434455;
 }
 
-.anchor {
+.link {
   text-decoration: none;
+}
+
+.link:hover {
+  color: #404bbf;
+}
+
+.link:focus {
+  color: #404bbf;
 }
 
 .list {
@@ -19,10 +30,11 @@ body {
   font-family: var(--logo-font-family);
   font-size: 18px;
   font-weight: 800;
-  line-height: 21px;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-align: left;
   text-decoration: none;
+  text-transform: uppercase;
 }
 .first-logo-word {
   color: #4d5ae5;
@@ -55,6 +67,17 @@ body {
   color: #434455;
 }
 
+.adresses:hover {
+  color: #404bbf;
+}
+
+.adresses:focus {
+  color: #404bbf;
+}
+
+.adresses-font {
+  font-style: normal;
+}
 #hero-image {
   background-color: #2e2f42;
 }

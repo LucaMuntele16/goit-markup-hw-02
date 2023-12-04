@@ -118,6 +118,7 @@ body {
   letter-spacing: 0.02em;
   text-align: left;
   color: #2e2f42;
+  background-color: #ffffffff;
 }
 
 .paragraph {
@@ -163,4 +164,7 @@ body {
 
 .paragraph-footer {
   color: #f4f4fd;
+}
+.team {
+  background-color: #f4f4fd;
 }
